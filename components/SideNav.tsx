@@ -35,7 +35,7 @@ function SideNav() {
             (
               <Link
               key={index}
-                href="/dashboard/status"
+                href={icon.path}
                 className="text-xl"
                 aria-label={icon.label}
               >
